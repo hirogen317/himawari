@@ -1,0 +1,2 @@
+AIC:
+$AIC=-2 \sum_{i=1}^n log f(X_i,\hat{\theta})+2 dim(\theta)$

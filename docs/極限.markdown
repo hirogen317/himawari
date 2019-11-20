@@ -1,0 +1,38 @@
+
+定義：常数存在、
+n>N　
+任意の$\epsilon$
+$|x_n- a| < \epsilon$
+
+aは極限
+
+存在しない場合は
+
+
+$\dfrac{\infty}{\infty}$ 型
+
+無限大
+
+多項式 ≪ 指数関数
+
+多項式は> 対数関数
+
+
+
+$\lim_{x\to 0}\frac{\sin x}{x}=1$
+
+
+$\lim_{x\to 0}\frac{e^x-1}{x}=1$
+
+$\lim_{x\to \infty}\left(1+\frac{1}{x}\right)^x=e$
+
+
+$\displaystyle\lim_{x\to 0}\dfrac{e^x-1}{x}=1$
+
+https://github.com/KeKe-Li/book/blob/master/AI/%E5%90%8C%E6%B5%8E%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6%E7%AC%AC%E5%85%AD%E7%89%88%E4%B8%8A%E4%B8%8B%E5%86%8C.pdf
+
+
+https://www1.doshisha.ac.jp/~kmizoha/analysis1/Lecture1.pdf
+
+
+https://mathtrain.jp/bakuhatsu
