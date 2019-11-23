@@ -1,0 +1,82 @@
+
+単回帰モデル：  $y_i=\alpha+\beta x_i +u_i, i=1,\cdot,n$
+
+\alpha: y切片項
+\beta: 回帰係数
+y　従属変数
+x　独立変数
+u_i　誤差項
+
+次の仮説に基づいたモデルです：
+x1 xnは確率変数ではなく、与えられた定数である
+E[u_i]=0
+E[u_i u_j] =0 (i \ne j)　すなわち無相関である
+Var(u_i)=\sigma すなわち分散は均一である
+
+さらに, u_i に正規分布を仮定するときには、その仮定を正規性仮定と読んでいる。
+
+回帰直線を引く
+|y_i - \alpha - \beta x_i|　の二乗の和を最小にするアプローチで最小二乗法と呼ばれる
+
+$h(\alpha, \beta)=\sigma_{i=1}^{n}(y_i-\alpha-\beta x_i)^2$
+
+最小二乗推定量 LSE という
+
+(x_i, \hat\alpha+\hat\beta x_i)と　観測値 (x_i, y_i)との差：
+e=y_i - (\hat\alpha +\beta x_i)を残差という
+
+残差平方和：
+
+$RSS=\sum_{i=1}^n e_i^2$
+
+
+最小推定量の分布
+
+$\hat\alpha$ $\hat\beta$ の平均と分散および　$\hat\sigma^2$ の平均を求めます。
+
+$E[\hat\beta]=\beta$, $Var(\hat\beta)=\sigma^2/Q_{xx}$
+
+$E[\hat\alpha]=\alpha$, $Var(\hat\beta)=\sigma^2{n^{-1}+(\bar x)^2 /Q_{xx}}$
+
+$Cov(\hat\alpha, \hat\beta)=-\bar x \sigma^2/Q_{xx}$
+
+
+$E[e_i]=0, E[\sigma^2]=\sigma^2$
+
+検定と予測
+
+H_0: $\beta=0$, H_1: $\beta \ne 0$
+
+yとxの間に因果関係があるかを検証する検定である。
+
+より一般的に
+
+H_0: $\beta=\beta_0$, H_1: $\beta \ne \beta_0$
+
+決定係数：　予測値　\hat\y_i と実際のデータ y_i との相関係数。
+相関係数の二乗を決定係数といい、R^2で表す。
+
+1に近いほどモデルの当てはまりが良いことを意味する。
+
+$R^2=\{\sum_{i=1}^n(\hat y_i - \bar y)(y_i-\bar y)\}^2/\{\sum_{i=1}^n(\hat y_i - \bar y)^2\sum_{i=1}^n(y_i- \bar y)^2\}$
+
+$R^2=\sum_{i=1}^n(\hat y_i- \bar y)^2\}/\sum_{i=1}^n(y_i- \bar y)^2\}$
+
+
+$R^2=1-RSS/\sum_{i=1}^n(y_i- \bar y)^2\}$
+
+標準化残差
+
+残差分析：　系列相関の有無
+分散の不均一性
+
+外れ値の有無
+
+分布の非正規性
+
+重回帰モデル
+
+偏回帰係数
+
+
+ロジスティック回帰モデルと一般化線形モデル

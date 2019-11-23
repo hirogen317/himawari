@@ -9,11 +9,14 @@
 
 ## 極限
 
+$x$
+ロピタルの定理：
 
+$\lim_{x \rightarrow a}\frac{f(x)}{g(x)}=\lim_{x \rightarrow a}\frac{f'(x)}{g'(x)}$
 
 ## 微分
 
-**微分可能**：　極限$\lim_{h \rightarrow 0} \frac{f(a+h)-f(a)}{h}$が存在するとき、f(x)はx=aにおいて微分可能という。
+**微分可能**：　極限 $\lim_{h \rightarrow 0} \frac{f(a+h)-f(a)}{h}$ が存在するとき、f(x)はx=aにおいて微分可能という。
 
 **微分係数**：上記の極限をx=aにおけるf(x)の微分係数という、$f'(a)$ によって表す。
 
@@ -31,11 +34,25 @@ dxとdyを切り離して使う場合もあります。
 $y=f(x), z=g(y)$　の場合：
 $\dfrac{dy}{dx}=\dfrac{dz}{dy}\dfrac{dy}{dx}$ 証明は略
 
-
 $\displaystyle f'(x)=\lim_{h \to 0}\frac{f(x+h)-f(x)}{h}$
 
 
 # 定理、公式と説明
+
+## 数列の和
+
+等差数列
+
+等比数列
+
+二項係数
+
+無限級数
+
+https://mathtrain.jp/sequencesum
+
+https://mathtrain.jp/mugen
+
 
 ## 極限
 
@@ -104,11 +121,30 @@ $\dfrac{dy}{dx}=\dfrac{\frac{dy}{dt}}{\frac{dx}{dt}}=\dfrac{g'(t)}{f'(t)}$
 
 ### 積分の計算公式
 
+合成関数
+
+$\displaystyle\int f(x)dx=\displaystyle\int f(g(t))\dfrac{dx}{dt}dt$
+
+
 部分積分公式：
 
 $\int f(x)g'(x)dx=f(x)g(x)-\int f'(x)g(x)dx$
 
-$\displaystyle\int f(x)dx=\displaystyle\int f(g(t))\dfrac{dx}{dt}dt$
+
+定積分で表された関数の微分の公式
+
+簡単型：$\displaystyle\frac{d}{dx}\int_a^xf(t)dt=f(x)$
+
+より一般的な型：$\displaystyle\frac{d}{dx}\int_{p(x)}^{q(x)}f(t)dt=f(q(x))q'(x)-f(p(x))p'(x)$
+
+### よく使える結論
+
+ガウス積分：
+
+$\displaystyle\int_{-\infty}^{\infty}e^{-ax^2}dx=\sqrt{\dfrac{\pi}{a}}$
+
+証明：[重積分あるいはガンマ関数](https://mathtrain.jp/gauss)
+
 
 ### 基本的な関数の関数積分公式
 
@@ -140,7 +176,7 @@ $\displaystyle\int a^xdx=\dfrac{a^x}{\log a}+C$
 
 **その他**
 
-$\displaystyle\int_{-\infty}^{\infty}e^{-ax^2}dx=\sqrt{\dfrac{\pi}{a}}$
+$\displaystyle\int_{-\infty}^{\infty}e^{-ax^2}dx=\sqrt{\dfrac{\pi}{a}}$
 
 
 # 問題

@@ -1,0 +1,80 @@
+
+
+同時分布：$P(X=x, Y=y)$: X=xかつY=yの確率を表す、 $F_{X,Y}(x,y)$
+
+連続の場合、 $P((X,Y)\in C)=\int\int f_{X,Y}(x,y)dxdy$
+
+同時確率関数： $\sum{f_{X,Y}(x,y)}=\sum_{x=0}^{\infty}\sum_{x=0}^{\infty}{f_{X,Y}(x,y)
+}$
+
+周辺分布：$f_X(x)=\sum_{y=0}^{\infty} f_{X,Y}(x,y)$
+周辺確率関数：
+
+連続の場合、
+
+$f_X(x)=\int_{-\infty}^{\infty} f_{X,Y}(x,y) dy$
+
+条件付き確率分布：　X=xを与えたときY=yの条件付き確率分布関数：
+$f_{Y|X}(y|x)=\frac{f_{X,Y}(x, y)}{f_X(x)}$
+
+条件付き平均、分散：
+
+確率の独立性
+
+
+共分散
+
+$E[X] = \mu_x$
+$E[Y] = \mu_y$
+
+$Var[X] = \sigma_x^2$
+$Var[Y] = \sigma_y^2$
+
+$\sigma_{XY}=Cov(X,Y)=E[(X-\mu_x)(Y-\mu_y)]$
+
+相関係数
+
+$\rho_{X,Y}=Corr(X,Y)=\frac{\sigma_{XY}}{\sigma_{X}\sigma_{Y}}$
+
+共分散：尺度を依存します。
+
+相関係数：尺度を依存しない。
+
+${Cov(X,Y)}^2 \le Var(X)Var(Y)$
+
+$E[(X-\mu_x)(Y-\mu_y)]^2 \le E([X-\mu_x]^2)E([Y-\mu_y]^2)$
+
+正の相関、負の相関、無相関
+
+階層モデル
+
+混合分布
+
+
+条件付き分散公式
+
+
+ベータ二項分布
+
+
+最大値と最小値の確率分布
+
+「最大値が x 以下の確率」
+＝「X1,…,Xn が全て x 以下になる確率」
+=F(x)×⋯×F(x)=F(x)n
+
+$F(x)^n$
+
+「最小値が x 以下の確率」
+＝「少なくとも1つは x 以下になる確率」
+＝１－「全部 x より大きい確率」
+=1−{1−F(x)}n
+
+$1-\{1-F(x)\}^n$
+
+「X1,…,Xn のうち，小さい方から k 番目」が従う分布の累積分布関数は，
+
+
+$\displaystyle\sum_{t=k}^n{}_n\mathrm{C}_tF(x)^t\{1-F(x)\}^{n-t}$
+
+https://mathtrain.jp/orderbunpu
