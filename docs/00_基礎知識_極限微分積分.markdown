@@ -9,10 +9,68 @@
 
 ## 極限
 
-$x$
-ロピタルの定理：
+### 極限の定義
+
+**極限、収束**：無限数列 ${a_n}$ に置いて、nが限りなく大きくなるとき、$a_n$ がある有限の値 $\alpha$ に近くなら、${a_n}$ は $\alpha$ に収束といい。
+$\lim_{n \rightarrow \infty} a_n=\alpha$と表す、 $\alpha$ を　${a_n}$の極限値または単に極限と呼ぶ。収束しないときには発散するという。
+
+**上界**：　無限数列 ${a_n}$ において、ある有限値Mがあり、すべてのnに対して、$a_n<M$ が成り立つとき、 ${a_n}$ が上に有界といい。
+
+**上限　$\sup a_n$**：最小の上界は上限といい、$\sup a_n$ と表す。
+
+**下界、下限、 $\inf_{a_n}$**：略
+
+**上限と最大値は区別する**： $a_n$が必ずしも上限の値をとるとは限らないので。
+
+### 極限の性質
+
+#### 基本性質
+
+**前提**
+
+$\lim_{n \rightarrow \infty} a_n=\alpha$, $\lim_{n \rightarrow \infty} b_n=\beta$, c,d は実数
+
+**性質**
+
+$\lim_{n \rightarrow  \infty}(ca_n+db_n)=c \lim_{n \rightarrow \infty} a_n + d \lim_{n \rightarrow b_n}=c\alpha+d\beta=c\alpha+d\beta$
+
+$\lim_{n \rightarrow \infty}a_nb_n=(\lim_{n \rightarrow \infty}a_n)(\lim_{n \rightarrow \infty}b_n)=\alpha\beta$
+
+$lim_{n \rightarrow \infty} \frac{a_n}{b_n}=\frac{\alpha}{\beta}$
+
+$a_n \le b_n  \lim_{n \rightarrow \infty} a_n \le lim{n \rightarrow \infty} b_n$
+
+単調増加（減少）で上（下）に有界な数列は収束する。
+
+#### 常用極限
+
+$\lim_{n \rightarrow \infty}(1+\frac{1}{n})^n=e$
+
+$\lim_{n \rightarrow \infty}(1+\frac{x}{n})^n=e^x$
+
+$\lim_{h \rightarrow 0} \frac{e^h-1}{h}=1$
+
+#### ロピタルの定理
 
 $\lim_{x \rightarrow a}\frac{f(x)}{g(x)}=\lim_{x \rightarrow a}\frac{f'(x)}{g'(x)}$
+
+#### 極限の比較
+
+
+
+#### その他
+
+固定値の
+
+$\lim_{n \rightarrow }$
+
+
+# 練習
+
+1. $\lim_{n \rightarrow \infty}(1+\frac{1}{n})^n=e$　は知ってる
+$\lim_{n \rightarrow \infty}(1+\frac{x}{n})^n=e^x$　を示す。
+
+
 
 ## 微分
 
