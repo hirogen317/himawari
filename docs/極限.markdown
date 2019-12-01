@@ -1,23 +1,4 @@
 
-定義：常数存在、
-n>N　
-任意の$\epsilon$
-$|x_n- a| < \epsilon$
-
-aは極限
-
-存在しない場合は
-
-
-$\dfrac{\infty}{\infty}$ 型
-
-無限大
-
-多項式 ≪ 指数関数
-
-多項式は> 対数関数
-
-
 
 $\lim_{x\to 0}\frac{\sin x}{x}=1$
 
